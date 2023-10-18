@@ -17,7 +17,7 @@ class QuizBrain:
         answer = self.questions[self.number].answer
 
         # ask the question
-        your_answer = input(f'Q{self.number + 1}. {question} ({answer}) (True or False?): ')
+        your_answer = input(f'Q{self.number + 1}. {question} ({answer}): ')
         self.number += 1
 
         # check the answer
